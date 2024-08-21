@@ -17,6 +17,7 @@ Analysis algorithms are used.
 ## Getting Started
 
 first install the all required python packages with following command
+
 `pip install -r requirements.txt`
 
 then run the `pkkk.py` file for installing `nlkt` dependencies and also for `creating table` in database.
