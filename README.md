@@ -13,3 +13,15 @@ applications. By analyzing user reviews and feedback, patterns are identified an
 sentiments that are indicative of potential fraud. To implement this solution, 
 Natural language processing techniques, Classification algorithms and Sentiment 
 Analysis algorithms are used.
+
+## Getting Started
+
+first install the all required python packages with following command
+`pip install -r requirements.txt`
+
+then run the `pkkk.py` file for installing `nlkt` dependencies and also for `creating table` in database.
+
+later run the `main.py`
+
+
+
