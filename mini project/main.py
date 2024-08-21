@@ -37,7 +37,7 @@ if not resultt:
             )
             print('Not fraudulent')
             # temp = f'{result["summary"]}' .replace('\'ll', ' will').replace('n\'t', ' not').replace('can\'t', 'cannot')
-            # print(f'Description\n{temp}')
+            print(f'Description\n{result["summary"]}')
             cur.execute("INSERT INTO app VALUES(?, 'Not Fraudulent', ?)", (appid, result["summary"]))
         else:
             print('likely fraudulent')
