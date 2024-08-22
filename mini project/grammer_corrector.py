@@ -17,4 +17,4 @@ def make_good(text):
 
         return response.text
     except ValueError:
-        print("wait some time.")
+        print("please try again after sometime.")
