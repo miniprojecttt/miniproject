@@ -40,10 +40,10 @@ if not resultt:
             print(f'Description\n{result["summary"]}')
             cur.execute("INSERT INTO app VALUES(?, 'Not Fraudulent', ?)", (appid, result["summary"]))
         else:
-            print('likely fraudulent')
+            print('Fraudulent')
             print('\nReviews Summary\n')
             res = summarize(content)
-            cur.execute("INSERT INTO app VALUES(?, 'Likely Fraudulent', ?)", (appid, res))
+            cur.execute("INSERT INTO app VALUES(?, 'Fraudulent', ?)", (appid, res))
             print(res)
     else:
         print("The Reviews are less than the threshold to check whether the application if fraudulent or not!\n")
